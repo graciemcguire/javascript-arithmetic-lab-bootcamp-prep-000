@@ -22,6 +22,10 @@ function dec(n){
   return n--;
 }
 
-makeInt(n){
-  return parseInt(n)
+function makeInt(n, 10){
+  return parseInt(n);
+}
+
+function preserveDecimal(n){
+  floatInt(n);
 }
